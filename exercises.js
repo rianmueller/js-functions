@@ -27,7 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-
+var bango1 = 1;
+var bango2 = 2;
 
 /*
  * #2
@@ -45,7 +46,6 @@ console.log(testGreeting); // printing the output value of the function.
 */
 
 
-
 /*
  * #3
  * Function - subtract
@@ -59,7 +59,6 @@ console.log(testGreeting); // printing the output value of the function.
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
-
 
 
 /*
@@ -77,7 +76,6 @@ console.log(testGreeting); // printing the output value of the function.
 */
 
 
-
 /*
  * #5
  * Function - divide
@@ -93,7 +91,6 @@ console.log(testGreeting); // printing the output value of the function.
 */
 
 
-
 /*
  * #6
  * Function - checkSum
@@ -105,7 +102,6 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `daDiva`. 
  * Console.log your result.
 */
-
 
 
 /*
@@ -121,7 +117,6 @@ console.log(testGreeting); // printing the output value of the function.
 */ 
 
 
-
 /*
  * #8
  * Function - checkProduct
@@ -134,7 +129,6 @@ console.log(testGreeting); // printing the output value of the function.
 */
 
 
-
 /*
  * #9
  * Function - checkQuotient
@@ -145,6 +139,7 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
+
 
 /*
  * Declare three variables
@@ -165,7 +160,6 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
 
 
 /*
