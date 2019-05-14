@@ -174,6 +174,10 @@ console.log(checkProduct(sum * product));
  * Console.log your result.  
 */
 
+function checkQuotient(){
+    return product * quotient;
+}
+console.log(checkQuotient(product * quotient));
 
 /*
  * Declare three variables
