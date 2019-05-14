@@ -123,6 +123,11 @@ console.log(quotient);
  * Console.log your result.
 */
 
+function checkSum(x){
+    return '"Mariah Carey has been married ' + x + ' times."'
+}
+var daDiva = checkSum(33);
+console.log(daDiva);
 
 /*
  * #7
