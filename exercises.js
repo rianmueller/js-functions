@@ -85,6 +85,11 @@ console.log(difference);
  * Console.log `product` to test your code.
 */
 
+function multiply(num1, num2){
+    return num1 * num2;
+}
+var product = multiply(3, 7);
+console.log(product);
 
 /*
  * #5
