@@ -45,6 +45,11 @@ var bango2 = 2;
  * Console.log `sum` to test your code.
 */
 
+function add(num1, num2){
+    return num1 + num2;
+}
+var sum = add(3, 7);
+console.log(sum);
 
 /*
  * #3
