@@ -296,7 +296,8 @@ console.log(shoeSize(12));
 function allCaps(str){
     return str.toUpperCase();
 }
-console.log(allCaps('"believe you can and you\'re halfway there."'));
+var str = 'believe you can and you\'re halfway there.'
+console.log(allCaps(str));
 
 /*
  * #16
@@ -306,7 +307,10 @@ console.log(allCaps('"believe you can and you\'re halfway there."'));
  * Console.log your result.
 */
 
-
+function oneCap(str){
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+console.log(oneCap(str));
 
 /*
  * #17
