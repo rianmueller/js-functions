@@ -199,6 +199,27 @@ console.log(checkQuotient(product * quotient));
  * Console.log your result.
 */ 
 
+var bango3;
+var bango4;
+var bango5;
+
+function addThenSubtract(num1, num2, num3){
+    return(subtract(num3, add(num1, num2)))
+}
+console.log(addThenSubtract(1, 2, 3));
+
+// function add(num1, num2){
+//     return num1 + num2;
+// }
+// var sum = add(3, 7);
+// console.log(sum);
+
+// function subtract(num1, num2){
+//     return num1 - num2;
+// }
+// var difference = subtract(3, 7);
+// console.log(difference);
+
 
 /*
  * #11
