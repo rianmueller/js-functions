@@ -208,19 +208,6 @@ function addThenSubtract(num1, num2, num3){
 }
 console.log(addThenSubtract(1, 2, 3));
 
-// function add(num1, num2){
-//     return num1 + num2;
-// }
-// var sum = add(3, 7);
-// console.log(sum);
-
-// function subtract(num1, num2){
-//     return num1 - num2;
-// }
-// var difference = subtract(3, 7);
-// console.log(difference);
-
-
 /*
  * #11
  * Function - multiplyThenDivide
@@ -235,7 +222,10 @@ console.log(addThenSubtract(1, 2, 3));
  * Console.log your result.
 */ 
 
-
+function multiplyThenDivide(num1, num2, num3){
+    return(divide(num3, multiply(num1, num2)))
+}
+console.log(multiplyThenDivide(1, 2, 3));
 
 /*
  * #12
